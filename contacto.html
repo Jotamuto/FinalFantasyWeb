@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<!--el titulo de la pagina-->
+		<title>Final Fantasy</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Jota"/>
+		<meta name="description" content="Final Fantasy"/>
+		<meta name="keywords" content="Final Fantasy"/>
+		<script type="text/javascript" src="java/colores.js" defer="true"></script>
+		<link rel="stylesheet" media="all" type="text/css" href="css/estilo.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="cabecera">
+				<img src="media/logo-black.gif" alt="compañia"/>
+			</div>
+			<div class="cabecera1">
+				<img src="media/letras.png" alt="letras"/>
+					<ul>
+						<li><a class="cabecera2" href="index.html">Inicio</a></li>
+						<li><a class="cabecera2" href="multimedia.html">Multimedia</a></li>
+						<li><a class="cabecera2" href="somos.html">Quienes somos</a></li>
+						<li><a class="cabecera2" href="contacto.html">Contacto</a></li>
+					</ul>
+					<div class="colores">
+					<div class="cajoncito blanco">
+					</div>
+					<div class="cajoncito amarillo">
+					</div>
+					<div class="cajoncito azul">
+					</div>
+					<div class="cajoncito rosa">
+					</div>
+			</div>
+		</header>
+		<div class="fondito">
+		<div class="fade">
+		<aside>
+			<div class="slider">
+				<input type="radio" class="boton" name="boton" checked="checked">
+				<label></label>
+				<input type="radio" class="boton" name="boton">
+				<label></label>
+				<input type="radio" class="boton" name="boton">
+				<label></label>
+				<input type="radio" class="boton" name="boton">
+				<label></label>
+					
+				<div class="contenedor-img cuatro-imagenes">
+					<img src="media/slider/20.jpg" alt="Final Fantasy XV" title="Final Fantasy XV"/>
+					<img src="media/slider/16.jpg" alt="Final Fantasy XVI" title="Final Fantasy XVI" />
+					<img src="media/slider/15.jpg" alt="Final Fantasy XV" title="Final Fantasy XV" />
+					<img src="media/slider/14.jpg" alt="Final Fantasy VII" title="Final Fantasy VII"/>
+				</div>
+			</div>
+		</aside>
+		<section id="contacto">
+			<div class="contac">
+				<h2>Formulario de Contacto</h2>
+				<div class="formucontac">
+					<ul>
+						<li class="documen"> 
+							<div class="categoria_formu formutitulo">
+							Final Fantasy Portal Site
+							</div>
+							<div class="textoformu">
+								<p>Bienvenido/a navegante, te encuentras en la página de contacto de nuestro sitio web.
+								Si deseas ponerte en contacto con el Staff de la página para hacernos llegar alguna sugerencia,
+								problema con la navegación de la página o de algún error de información no dudes en rellenar 
+								el Formulario pulsando el siguiente botón.</p>
+								<button id="mostrar">Iniciar Formulario</button>
+							</div>
+							<div class="formulasion">
+								<p> Formulario de contacto </p>
+								
+								<form method="post" action="contacto.html" name="formu">
+									
+									<div class="datos">
+										<label for="nombre">Nombre:</label>
+										<input type="text" id="nombre" name="nombre" value="" required minlength="3" maxlength="10" placeholder="Escriba aquí..."/>
+										<label for="apellido">Apellidos:</label>
+										<input type="text" id="apellido" name="apellido" value="" required minlength="3" maxlength="10" placeholder="Escriba aquí..."/>
+				
+										<label for="correo">Correo electrónico:</label>
+										<input type="email" name="correo" required id="correo" value="" placeholder="example@tonto.com"/>
+				
+									
+										<label for="date">Fecha de nacimiento:</label>
+										<input type="date" name="fecha" id="date">
+										
+										<label for="hora">Hora actual:</label>
+										<label><input type="time" name="hora" id="hora"/></label>
+										<div class="area">
+										
+										<label for="info">Escribe tu mensaje aquí:</label>
+										<label ><textarea rows="4" cols="50" name="info" id="info" placeholder="Esriba aquí..."/></textarea></label>
+									</div>
+									<div class="botones">
+										<input type="submit" value="Enviar"/> 
+										<input type="reset" value="Borrar"/>
+										<button id="cerrar">Cerrar</button>
+									</div>
+									
+								</form>	
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</section>
+	<footer>
+        <div class='futer'>
+        <div class='row'>
+            <div class="pie">
+                <ul>
+                    <li><a href='#'>12650498@alu.murciaeduca.es</a></li>
+                    <li><a href='#'>Política de privacidad</a></li>
+                    <li><a href='contacto.html'>Contacto</a></li>
+					<li class="cabecera">
+						<img src="media/logo-black.gif" alt="compañia"/>
+					</li>
+                    <li class="copy">&copy; Jota - 2023 </li>
+                    
+                </ul>
+				
+            </div>
+        </div>
+        </div>
+    </footer>	
+	</body>
+</html>
